@@ -4,70 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KrilyonApp</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>KrilyonApp</h1>
-        <div class="icons">
-            🔍
-            ⋮
-        </div>
-    </header>
+    <div class="app">
+        <header class="top-bar">
+            <h1>KrilyonApp</h1>
 
-    <main>
-
-        <div class="chat">
-            <div class="avatar">C</div>
-
-            <div class="chat-info">
-                <div class="top">
-                    <strong>Cəsur</strong>
-                    <span>21:05</span>
-                </div>
-
-                <div class="message">
-                    Salam! 👋
-                </div>
+            <div class="top-buttons">
+                <button>⌕</button>
+                <button>⋮</button>
             </div>
-        </div>
+        </header>
 
-        <div class="chat">
-            <div class="avatar">E</div>
+        <main class="chats">
+            <div class="chat">
+                <div class="avatar">C</div>
 
-            <div class="chat-info">
-                <div class="top">
-                    <strong>Elvin</strong>
-                    <span>20:58</span>
+                <div class="chat-info">
+                    <h2>Cəsur</h2>
+                    <p>KrilyonApp-a xoş gəlmisən 👋</p>
                 </div>
 
-                <div class="message">
-                    Necəsən?
-                </div>
+                <span class="time">21:00</span>
             </div>
-        </div>
+        </main>
 
-        <div class="chat">
-            <div class="avatar">M</div>
+        <button class="new-chat">＋</button>
+    </div>
 
-            <div class="chat-info">
-                <div class="top">
-                    <strong>Murad</strong>
-                    <span>20:41</span>
-                </div>
-
-                <div class="message">
-                    Görüşərik 👍
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    <button class="new-chat">＋</button>
-
+    <script src="script.js"></script>
 </body>
 </html>
